@@ -7,7 +7,7 @@ header img {
 body {
     border-top:7px solid #53778E;
     font-family: 'Open Sans', sans-serif;
-    font-size:17px;
+    font-size:15px;
     line-height:1.4em;
 }
 
@@ -94,7 +94,6 @@ header {
 .waysToSell h3 {
     font-size:1.2em;
     font-weight:600;
-    height:2em;
 }
 
 .oneWayToSell img {
