@@ -7,7 +7,7 @@ header img {
 body {
     border-top:7px solid #53778E;
     font-family: 'Open Sans', sans-serif;
-    font-size:15px;
+    font-size:17px;
     line-height:1.4em;
 }
 
@@ -33,6 +33,7 @@ header {
     color:#53778E;
     margin-left:1.4em;
     padding:5px 10px;
+    text-transform: uppercase;
 }
 
 .nav li:hover {
@@ -42,7 +43,7 @@ header {
 
 .middle {
     background-image:linear-gradient(#D4824F, #b7622c);
-    height:350px;
+    height:380px;
     margin-top:1.5em;
 }
 
@@ -52,8 +53,9 @@ header {
 }
 
 .middle h2 {
-    font-size:4em;
+    font-size:3.3em;
     margin-top:0;
+    padding-top:0;
 }
 
 .middle h3 {
@@ -92,6 +94,7 @@ header {
 .waysToSell h3 {
     font-size:1.2em;
     font-weight:600;
+    height:2em;
 }
 
 .oneWayToSell img {
