@@ -1,0 +1,131 @@
+header img {
+    max-width:350px;
+    height:auto;
+    margin-left:-5px;
+}
+
+body {
+    border-top:7px solid #53778E;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    line-height:1.4em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    /* font-family: 'Sniglet', cursive; */
+    color:#53778E;
+}
+
+header {
+    padding-top:1em;
+}
+
+.nav ul {
+    float:right;
+    padding:10px;
+    padding-top:30px;
+    padding-right:0;
+}
+
+.nav li {
+    display:inline;
+    font-size:1.3em;
+    color:#53778E;
+    margin-left:1.4em;
+    padding:5px 10px;
+}
+
+.nav li:hover {
+    cursor: pointer;
+    border-bottom:2px solid gray;
+}
+
+.middle {
+    background-image:linear-gradient(#D4824F, #b7622c);
+    height:350px;
+    margin-top:1.5em;
+}
+
+.middle h3, .middle h2 {
+    color:#fff;
+    line-height:1.1em;
+}
+
+.middle h2 {
+    font-size:4em;
+    margin-top:0;
+}
+
+.middle h3 {
+    color:#000;
+}
+
+.middle {
+    padding-top:3em;
+}
+
+.middle button {
+    background-color:#5A768C;
+    color:#fff;
+    padding:10px 20px;
+    border-radius:5px;
+    border:none;
+    text-transform: uppercase;
+    margin-top:1.5em;
+    font-size:1.4em;
+    box-shadow:0px 0px 10px rgba(0,0,0,.1);
+}
+
+.content {
+    margin-top:2em;
+    margin-bottom:5em;
+}
+
+.content h1 {
+    text-align:center;
+    font-size:2.5em;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-bottom:.6em;
+}
+
+.waysToSell h3 {
+    font-size:1.2em;
+    font-weight:600;
+}
+
+.oneWayToSell img {
+    max-height:150px;
+    display:block;
+    margin:0px auto;
+    margin-bottom:2em;
+}
+
+.oneWayToSell button {
+    background-color:#D99164;
+    color:#fff;
+    padding:10px 20px;
+    border:none;
+    margin:0px auto;
+    margin-top:2em;
+}
+
+.oneWayToSell {
+    padding:0px 30px;
+    box-sizing: border-box;
+    margin-top:2em;
+    height:28em;
+}
+
+.oneWayToSell button:hover {
+    background-color:#bd6f3e;
+}
+
+.oneWayToSell h3 {
+    font-size:1.3em;
+    text-transform: uppercase;
+}
+
+.oneWayToSell p {
+    text-align:left;
+}
