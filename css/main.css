@@ -42,40 +42,93 @@ header {
 }
 
 .middle {
-    background-image:linear-gradient(#D4824F, #b7622c);
-    height:350px;
+    background-image:linear-gradient(#f28900, #E48D33);
     margin-top:1.5em;
 }
 
+.orange {
+    background-image:linear-gradient(#f28900, #E48D33);
+    color:#fff;
+    padding:3em 0em;
+}
+
+.infoBox {
+    text-align: center;
+    margin-bottom:2em;
+}
+
+.infoBox p {
+    color:black;
+    margin-top:1em;
+    font-size:1.3em;
+    line-height:1.3em;
+}
+
+
+.infoBox h2 {
+    font-size:4em;
+    color:#fff;
+    font-weight:600;
+    margin:0;
+    padding:0;
+}
+
+.infoBox h3 {
+    font-size:1.3em;
+    color:#fff;
+    font-weight:600;
+    margin:0;
+    padding:0;
+    margin-top:10px;
+}
 .middle h3, .middle h2 {
     color:#fff;
     line-height:1.1em;
 }
 
 .middle h2 {
-    font-size:3.3em;
+    font-size:2.6em;
+    margin-top:0;
+    padding-top:0;
+    font-weight:600;
+    margin-bottom:0;
+}
+
+.middle h3 {
+    font-size:1.7em;
+    line-height:1.4em;
+    color:#000;
     margin-top:0;
     padding-top:0;
 }
 
-.middle h3 {
+.middle p {
+    margin-top:1.3em;
+    font-size:1.5em;
     color:#000;
+    font-weight:300;
+    line-height:1.4em;
 }
 
 .middle {
-    padding-top:3em;
+    padding-top:4em;
+    padding-bottom:4em;
 }
 
 .middle button {
     background-color:#5A768C;
     color:#fff;
-    padding:10px 20px;
+    padding:20px 20px;
     border-radius:5px;
     border:none;
     text-transform: uppercase;
     margin-top:1.5em;
-    font-size:1.4em;
+    font-size:1.2em;
     box-shadow:0px 0px 10px rgba(0,0,0,.1);
+}
+
+.middle button i {
+    margin-right:10px;
 }
 
 .content {
@@ -85,10 +138,12 @@ header {
 
 .content h1 {
     text-align:center;
-    font-size:2.5em;
+    font-size:2.3em;
     text-transform: uppercase;
-    font-weight:600;
+    font-weight:500;
     margin-bottom:.6em;
+    margin-top:1.5em;
+    margin-bottom:1em;
 }
 
 .waysToSell h3 {
@@ -104,7 +159,7 @@ header {
 }
 
 .oneWayToSell button {
-    background-color:#D99164;
+    background-color:#f28900;
     color:#fff;
     padding:10px 20px;
     border:none;
@@ -120,7 +175,7 @@ header {
 }
 
 .oneWayToSell button:hover {
-    background-color:#bd6f3e;
+    background-color:#d98125;
 }
 
 .oneWayToSell h3 {
@@ -130,4 +185,75 @@ header {
 
 .oneWayToSell p {
     text-align:left;
+}
+
+.orange .why h2 {
+    color:#fff !important;
+    text-align:center;
+    margin-bottom:2em;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+.orange .how h3 {
+    color:#fff !important;
+    text-align:center;
+    margin-bottom:2em;
+    font-weight:600;
+}
+
+.orange .how button {
+    background-color:#5A768C;
+    color:#fff;
+    padding:20px 20px;
+    border-radius:5px;
+    border:none;
+    text-transform: uppercase;
+    margin-top:1.5em;
+    font-size:1.2em;
+    box-shadow:0px 0px 10px rgba(0,0,0,.1);
+    margin:0px auto;
+    display:block;
+}
+
+
+footer {
+    background-color:#222222;
+    float:left;
+    width:100%;
+    color:white;
+    padding-top:2em;
+    padding-bottom:4em;
+}
+
+footer .box img {
+    margin-bottom:2em;
+}
+
+footer .box a {
+    color:#fff;
+    float:left;
+    width:100%;
+    display:block;
+    margin-bottom:1em;
+}
+
+footer .box a i {
+    margin-right:10px;
+}
+
+footer h3 {
+    color:#E38D34;
+    font-size:1.4em;
+    margin-bottom:1em;
+}
+
+footer ul {
+    margin:0;
+    padding:0;
+}
+
+footer li {
+    list-style:none;
+    margin-bottom:10px;
 }
