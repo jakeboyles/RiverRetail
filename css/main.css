@@ -149,8 +149,9 @@ header {
 }
 
 .content {
-    margin-top:2em;
+    margin-top:3em;
     margin-bottom:5em;
+    padding-bottom:3em;
 }
 
 .content h1 {
