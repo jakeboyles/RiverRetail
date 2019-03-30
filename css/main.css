@@ -247,7 +247,17 @@ footer {
 }
 
 footer .box img {
-    margin-bottom:2em;
+    margin-bottom:0em;
+}
+
+.box h4 {
+    margin-bottom:0;
+    padding-bottom:10px;
+    color:#f28900;
+}
+
+footer .about {
+    padding-right:50px;
 }
 
 footer .box a {
@@ -256,6 +266,11 @@ footer .box a {
     width:100%;
     display:block;
     margin-bottom:1em;
+}
+
+footer .box .social {
+    font-size:20px;
+    margin-right:10px;
 }
 
 footer .box a i {
